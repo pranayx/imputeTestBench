@@ -1,0 +1,44 @@
+Package: imputeTestbench
+Type: Package
+Title: Test Bench for the Comparison of Imputation Methods
+Date: 2024-08-19
+Maintainer: Marcus W. Beck <mbafs2012@gmail.com>
+Contributor: Pranay Agrawal <agrawalpranay070@gmail.com>
+Version: 4.0.0
+Description: Provides a test bench for the comparison of missing data imputation 
+    methods in uni-variate and multi-variate time series. The package now supports 
+    high-performance computing using parallel processing and data.table, with options 
+    for integrating Apache Spark. Imputation methods are compared using various 
+    error metrics, with support for user-defined methods and metrics. A Shiny 
+    dashboard is also available for visualization and management.
+Imports:
+    dplyr,
+    forecast,
+    ggplot2,
+    imputeTS,
+    reshape2,
+    stats,
+    tidyr,
+    zoo,
+    data.table,
+    SparkR,
+    doParallel,
+    foreach
+BugReports: https://github.com/neerajdhanraj/imputeTestbench/issues
+License: CC0
+Authors@R: c(
+    person(given = "Neeraj", family = "Bokde",
+    role = c("aut"),
+    email = "neerajdhanraj@gmail.com"
+    ),
+    person(given = "Marcus W.", family = "Beck",
+    role = c("cre", "aut"),
+    email = "mbafs2012@gmail.com"
+    )
+  )
+LazyData: TRUE
+RoxygenNote: 7.2.3
+Suggests:
+    knitr,
+    rmarkdown,
+    magrittr

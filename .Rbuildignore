@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+README.md
+cran-comments.md
+.gitignore
+.Rhistory
+^\.travis\.yml$
+^appveyor\.yml$
+^README_cache/.*
+README.Rmd
+README.html
+^README_files/.*
+^revdep/.*
+^cran-comments\.md$
